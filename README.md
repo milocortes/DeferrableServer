@@ -10,3 +10,10 @@ Sin embargo, al contrario del PS, DS preserva su capacidad si no hay solicitudes
 La capacidad es mantenida hasta el final de periodo, de manera que las solicitudes aperiódicas pueden ser servidas
 con la misma prioridad del servidor en cualquier momento, en la medida que su capacidad ha sido consumida.
  Al inicio de cualquier periodo del servidor, su capacidad es reestablecida al máximo.
+
+### Ejecutar el programa
+
+```
+make
+./DeferrableServer
+```
